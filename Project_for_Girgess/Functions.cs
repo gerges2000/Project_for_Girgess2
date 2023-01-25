@@ -8,5 +8,12 @@ using System.Threading.Tasks;
 
 namespace Project_for_Girgess
 {
-    
+    public  class Functions
+    {
+       
+
+        
+        
+
+    }
 }
