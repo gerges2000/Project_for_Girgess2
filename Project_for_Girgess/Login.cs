@@ -22,6 +22,10 @@ namespace Project_for_Girgess
 
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
       
 
