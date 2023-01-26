@@ -37,7 +37,12 @@ namespace Project_for_Girgess
             CbDeptIdEmp.DataSource = con.GetData(Query);
 
         }
-       
+        private void Employee_Load(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log . Show();
+            this.Hide();
+        }
 
         
        
