@@ -101,7 +101,12 @@ namespace Project_for_Girgess
             } 
         }
 
-        
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+
+
+            
+        }
 
         
 
