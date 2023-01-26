@@ -51,6 +51,12 @@ namespace Project_for_Girgess
         int Key = 0;
         private void EmpList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            EmpName.Text = EmpList.SelectedRows[0].Cells[1].Value.ToString();
+            cbEmpGen.Text = EmpList.SelectedRows[0].Cells[2].Value.ToString();
+            CbDeptIdEmp.SelectedValue = EmpList.SelectedRows[0].Cells[3].Value.ToString();
+            EmpDate.Text= EmpList.SelectedRows[0].Cells[4].Value.ToString();
+            JDate.Text = EmpList.SelectedRows[0].Cells[5].Value.ToString();
+            EmpSalary.Text= EmpList.SelectedRows[0].Cells[6].Value.ToString();
             
 
         }
