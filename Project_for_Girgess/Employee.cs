@@ -140,7 +140,35 @@ namespace Project_for_Girgess
         {
 
 
-            
+            try
+            {
+                if (Key==0)
+                {
+                    MessageBox.Show("Missing Data !!!");
+                }
+                else
+                {
+                    string name = EmpName.Text.ToString();
+                    int depid = Convert.ToInt32(CbDeptIdEmp.SelectedValue.ToString());
+                    string gender = cbEmpGen.SelectedItem.ToString();
+                    string date = EmpDate.Value.Date.ToString();
+                    string jdate = JDate.Value.Date.ToString();
+                    int Salary = Convert.ToInt32(EmpSalary.Text.ToString());
+
+
+                    string Query = "delete Employee where EmpId='{0}'";
+                    Query = string.Format(Query, Key);
+                    con.SetData(Query);
+                    ShowEmployess();
+                    MessageBox.Show("Employee Deleted!!!");
+                    EmpName.Text = ""; EmpSalary.Text = ""; CbDeptIdEmp.SelectedIndex = -1;
+                    cbEmpGen.SelectedIndex = -1;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
   
