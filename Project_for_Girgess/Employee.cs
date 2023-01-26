@@ -12,6 +12,9 @@ namespace Project_for_Girgess
 {
     public partial class Employee : Form
     {
+        private Functions con;
+       
+
         
 
         
