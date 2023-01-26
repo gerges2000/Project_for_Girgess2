@@ -46,7 +46,10 @@ namespace Project_for_Girgess
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
-            
+            if(Username.Text=="" || pasword.Text == "")
+            {
+                MessageBox.Show("Missing Data !!");
+            }
             
             
         }
