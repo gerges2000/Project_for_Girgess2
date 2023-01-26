@@ -29,7 +29,15 @@ namespace Project_for_Girgess
 
 
         }
-        
+        private void GetDepartment()
+        {
+            string Query = "Select * from Department";
+            CbDeptIdEmp.DisplayMember=con.GetData(Query).Columns["DeotName"].ToString();
+            CbDeptIdEmp.ValueMember = con.GetData(Query).Columns["DeptId"].ToString();
+            CbDeptIdEmp.DataSource = con.GetData(Query);
+
+        }
+       
 
         
        
