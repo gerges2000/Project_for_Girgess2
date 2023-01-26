@@ -62,6 +62,9 @@ namespace Project_for_Girgess
             }
         }
 
-        
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
