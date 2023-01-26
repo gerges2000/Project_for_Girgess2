@@ -10,5 +10,18 @@ using System.Windows.Forms;
 
 namespace Project_for_Girgess
 {
+    public partial class Login : Form
+    {
 
+
+      
+
+      
+
+        
+
+       
+
+        
+    }
 }
