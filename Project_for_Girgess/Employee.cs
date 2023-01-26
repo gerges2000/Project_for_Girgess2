@@ -136,7 +136,12 @@ namespace Project_for_Girgess
             }
         }
 
-        
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+
+
+            
+        }
 
   
     
