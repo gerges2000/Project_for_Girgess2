@@ -171,7 +171,13 @@ namespace Project_for_Girgess
             }
         }
 
-  
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Department dp = new Department();
+            dp.Show();
+            this.Hide();
+        }
+
     
         
     }
