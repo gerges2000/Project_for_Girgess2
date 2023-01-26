@@ -54,7 +54,7 @@ namespace Project_for_Girgess
             {
                 Employee emp = new Employee();
                 emp.Show();
-                this.Hide();
+                
             }
             else
             {
