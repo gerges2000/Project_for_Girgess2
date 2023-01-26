@@ -22,6 +22,13 @@ namespace Project_for_Girgess
             GetDepartment();
         }
 
+        private void ShowEmployess()
+        {
+            string Query = "Select * from Employee";
+            EmpList.DataSource = con.GetData(Query);
+
+
+        }
         
 
         
