@@ -49,7 +49,12 @@ namespace Project_for_Girgess
 
         }
         int Key = 0;
-       
+        private void EmpList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+
+        }
+        
 
         
 
