@@ -44,7 +44,11 @@ namespace Project_for_Girgess
             this.Hide();
         }
 
-        
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+       
        
 
         
