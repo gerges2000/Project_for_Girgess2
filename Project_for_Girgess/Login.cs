@@ -27,7 +27,10 @@ namespace Project_for_Girgess
 
         }
 
-      
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
 
       
 
