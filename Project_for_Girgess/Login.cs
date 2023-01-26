@@ -32,7 +32,12 @@ namespace Project_for_Girgess
 
         }
 
-      
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Username.Text = "" ;
+            pasword.Text = "";
+                
+        }
 
         
 
