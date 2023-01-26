@@ -56,7 +56,10 @@ namespace Project_for_Girgess
                 emp.Show();
                 this.Hide();
             }
-            
+            else
+            {
+                MessageBox.Show("Wronng in Username or Password");
+            }
         }
 
         
