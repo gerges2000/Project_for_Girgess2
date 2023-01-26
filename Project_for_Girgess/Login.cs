@@ -52,8 +52,8 @@ namespace Project_for_Girgess
             }
             else  if(Username.Text=="Admin"&&pasword.Text=="123")
             {
-                Employee emp = new Employee();
                 
+                emp.Show();
                 this.Hide();
             }
             else
