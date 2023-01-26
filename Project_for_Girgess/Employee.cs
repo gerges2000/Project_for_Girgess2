@@ -185,6 +185,11 @@ namespace Project_for_Girgess
             this.Hide();
         }
 
-        
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
+        }
     }
 }
