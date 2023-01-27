@@ -13,6 +13,7 @@ namespace Project_for_Girgess
         private SqlConnection con;
         private SqlCommand cmd;
         private DataTable dt;
+        private SqlDataAdapter sda;
         
 
         
