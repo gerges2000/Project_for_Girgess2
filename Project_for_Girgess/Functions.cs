@@ -11,6 +11,7 @@ namespace Project_for_Girgess
     public  class Functions
     {
         private SqlConnection con;
+        private SqlCommand cmd;
         
 
         
