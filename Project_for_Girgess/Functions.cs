@@ -27,7 +27,7 @@ namespace Project_for_Girgess
         {
             dt = new DataTable();
             sda = new SqlDataAdapter(Query, con);
-            sda.Fill(dt);
+            sda.Fill(dt
             return dt;
         }
         public int SetData(string Query)
