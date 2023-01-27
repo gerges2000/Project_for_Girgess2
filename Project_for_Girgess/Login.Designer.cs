@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,12 +53,25 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(251, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(263, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Employee M S";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(535, 403);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poor Richard", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -68,6 +82,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -75,6 +90,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
