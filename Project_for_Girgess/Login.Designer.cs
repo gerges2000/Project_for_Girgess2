@@ -38,6 +38,7 @@
             this.AddBtn = new System.Windows.Forms.Button();
             this.pasword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.Username = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,6 +156,15 @@
             this.label4.Text = "Password";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // Username
+            // 
+            this.Username.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username.Location = new System.Drawing.Point(241, 192);
+            this.Username.Multiline = true;
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(252, 31);
+            this.Username.TabIndex = 3;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -165,6 +175,7 @@
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pasword);
+            this.Controls.Add(this.Username);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poor Richard", 8.25F);
@@ -192,6 +203,7 @@
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.TextBox pasword;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox Username;
     }
 }
 
