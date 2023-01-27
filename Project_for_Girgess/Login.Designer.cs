@@ -39,6 +39,7 @@
             this.pasword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Username = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -165,6 +166,17 @@
             this.Username.Size = new System.Drawing.Size(252, 31);
             this.Username.TabIndex = 3;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(237, 169);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(119, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "User Name";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -174,6 +186,7 @@
             this.Controls.Add(this.Reset);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pasword);
             this.Controls.Add(this.Username);
             this.Controls.Add(this.label2);
@@ -204,6 +217,7 @@
         private System.Windows.Forms.TextBox pasword;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Username;
+        private System.Windows.Forms.Label label3;
     }
 }
 
