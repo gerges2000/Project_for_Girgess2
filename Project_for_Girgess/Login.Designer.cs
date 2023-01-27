@@ -35,6 +35,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.Reset = new System.Windows.Forms.Label();
+            this.AddBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,6 +118,19 @@
             this.Reset.Text = "Reset";
             this.Reset.Click += new System.EventHandler(this.label5_Click);
             // 
+            // AddBtn
+            // 
+            this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBtn.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBtn.ForeColor = System.Drawing.Color.Teal;
+            this.AddBtn.Location = new System.Drawing.Point(299, 327);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(141, 33);
+            this.AddBtn.TabIndex = 7;
+            this.AddBtn.Text = "LOGIN";
+            this.AddBtn.UseVisualStyleBackColor = true;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -124,6 +138,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(535, 403);
             this.Controls.Add(this.Reset);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poor Richard", 8.25F);
@@ -148,6 +163,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label Reset;
+        private System.Windows.Forms.Button AddBtn;
     }
 }
 
