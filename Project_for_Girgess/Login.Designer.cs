@@ -34,6 +34,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.Reset = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,12 +105,25 @@
             this.label7.TabIndex = 4;
             this.label7.Text = "Sql Server";
             // 
+            // Reset
+            // 
+            this.Reset.AutoSize = true;
+            this.Reset.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reset.ForeColor = System.Drawing.Color.Teal;
+            this.Reset.Location = new System.Drawing.Point(353, 363);
+            this.Reset.Name = "Reset";
+            this.Reset.Size = new System.Drawing.Size(59, 25);
+            this.Reset.TabIndex = 8;
+            this.Reset.Text = "Reset";
+            this.Reset.Click += new System.EventHandler(this.label5_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(535, 403);
+            this.Controls.Add(this.Reset);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poor Richard", 8.25F);
@@ -133,6 +147,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label Reset;
     }
 }
 
