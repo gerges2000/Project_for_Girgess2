@@ -36,6 +36,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.Reset = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
+            this.pasword = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -131,6 +132,16 @@
             this.AddBtn.UseVisualStyleBackColor = true;
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
+            // pasword
+            // 
+            this.pasword.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pasword.Location = new System.Drawing.Point(241, 270);
+            this.pasword.Multiline = true;
+            this.pasword.Name = "pasword";
+            this.pasword.Size = new System.Drawing.Size(252, 31);
+            this.pasword.TabIndex = 4;
+            this.pasword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -139,6 +150,7 @@
             this.ClientSize = new System.Drawing.Size(535, 403);
             this.Controls.Add(this.Reset);
             this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.pasword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poor Richard", 8.25F);
@@ -164,6 +176,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label Reset;
         private System.Windows.Forms.Button AddBtn;
+        private System.Windows.Forms.TextBox pasword;
     }
 }
 
