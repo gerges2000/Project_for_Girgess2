@@ -37,6 +37,7 @@
             this.Reset = new System.Windows.Forms.Label();
             this.AddBtn = new System.Windows.Forms.Button();
             this.pasword = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -142,6 +143,18 @@
             this.pasword.TabIndex = 4;
             this.pasword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Teal;
+            this.label4.Location = new System.Drawing.Point(237, 247);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(106, 25);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Password";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -150,6 +163,7 @@
             this.ClientSize = new System.Drawing.Size(535, 403);
             this.Controls.Add(this.Reset);
             this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.pasword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -177,6 +191,7 @@
         private System.Windows.Forms.Label Reset;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.TextBox pasword;
+        private System.Windows.Forms.Label label4;
     }
 }
 
